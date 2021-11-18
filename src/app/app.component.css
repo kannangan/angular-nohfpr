@@ -1,0 +1,8 @@
+p {
+  font-family: Lato;
+}
+
+.draw-container {
+  min-height: 600px;
+  border: 1px solid #ccc;
+}

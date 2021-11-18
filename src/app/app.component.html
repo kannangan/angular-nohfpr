@@ -1,0 +1,7 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<button (click)="addTable()">add a table</button>
+<span [dndDraggable]="{ id: 'blablabla', name: '一个表' }">拖我</span>
+<div appCytoscape class="draw-container" dndDropzone #graph></div>
